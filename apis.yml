@@ -1,8 +1,12 @@
 aid: sabi
 name: Sabi
-description: 'Sabi is a company surfaced as a portfolio company of initialized-capital, prosus-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Sabi ("Just Think") presents itself at sabi.com as a consumer neural-interface
+  company building a wearable (a beanie) that transforms a wearer''s thoughts directly
+  into text — "no typing, no voice, just think." As of this enrichment pass the company
+  operates a single marketing landing page with no public developer portal, API, documentation,
+  SDK, changelog, or status surface; the only outbound links are its social accounts on
+  X and Instagram. Added to the API Evangelist network as a VC-portfolio stub lead; there
+  is currently no API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/sabi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +15,29 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sabi.com/website-banner.png
 tags:
 - Company
 - Consumer
+- Neural Interface
+- Brain-Computer Interface
+- Wearable
+- Hardware
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sabi-domain-security.yml
 - type: Website
-  url: https://sabi.io/
+  url: https://sabi.com/
+- type: X
+  url: https://x.com/sabi
+- type: Instagram
+  url: https://www.instagram.com/sabi.cap
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
